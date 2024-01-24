@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "packages": {
+    "com.tripolygon.umodeler-x": {
+      "tarball": {
+        "hash": "5999a540ba07",
+        "mtime": 1706099948732,
+        "size": 7441154,
+        "localPath": "C:\\TeamProject\\Test_Modeling\\Test_Modeling\\Packages\\com.tripolygon.umodeler-x-0.17.2\\com.tripolygon.umodeler-x-0.17.2.tgz"
+      }
+    }
+  }
+}
