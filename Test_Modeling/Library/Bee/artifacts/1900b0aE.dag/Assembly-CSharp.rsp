@@ -354,8 +354,6 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
--analyzer:"Assets/02_MyAssets/UModeler-Hub/Editor/Tripolygon.UModeler.Hub.Editor.dll"
--analyzer:"Assets/02_MyAssets/UModeler-Hub/Runtime/Tripolygon.UModeler.Hub.dll"
 "Assets/02_MyAssets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
 "Assets/02_MyAssets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs"
 "Assets/02_MyAssets/TextMesh Pro/Examples & Extras/Scripts/Benchmark02.cs"

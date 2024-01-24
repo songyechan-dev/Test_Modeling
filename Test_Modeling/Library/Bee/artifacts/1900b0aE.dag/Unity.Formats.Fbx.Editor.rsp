@@ -350,8 +350,6 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.TestRunner.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
--analyzer:"Assets/02_MyAssets/UModeler-Hub/Editor/Tripolygon.UModeler.Hub.Editor.dll"
--analyzer:"Assets/02_MyAssets/UModeler-Hub/Runtime/Tripolygon.UModeler.Hub.dll"
 "Library/PackageCache/com.unity.formats.fbx@4.1.3/Editor/CameraVisitor.cs"
 "Library/PackageCache/com.unity.formats.fbx@4.1.3/Editor/ConvertToNestedPrefab.cs"
 "Library/PackageCache/com.unity.formats.fbx@4.1.3/Editor/ConvertToPrefabEditorWindow.cs"

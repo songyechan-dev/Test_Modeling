@@ -344,8 +344,6 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Flow.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
--analyzer:"Assets/02_MyAssets/UModeler-Hub/Editor/Tripolygon.UModeler.Hub.Editor.dll"
--analyzer:"Assets/02_MyAssets/UModeler-Hub/Runtime/Tripolygon.UModeler.Hub.dll"
 "Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.State/AnyState.cs"
 "Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.State/FlowState.cs"
 "Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.State/FlowStateTransition.cs"
