@@ -151,3 +151,447 @@
 [2024-01-25 오전 12:59:00] [Debug] [Application] Service Release: Tripolygon.UModeler.Hub.HubService
 [2024-01-25 오전 12:59:00] [Debug] [Application] Service Release: Tripolygon.UModeler.Editor.UI.UnityEditorApplicationCache
 [2024-01-25 오전 12:59:00] [Debug] [Application] Service Release: Tripolygon.UModeler.Hub.HubAuthentication
+[2024-01-25 오전 12:59:39] [Debug] [Application] service: Tripolygon.UModeler.Hub.HubAuthentication = Tripolygon.UModeler.Hub.HubAuthentication
+[2024-01-25 오전 12:59:39] [Debug] [Application] service: Tripolygon.UModeler.UI.IApplicationCache = Tripolygon.UModeler.Editor.UI.UnityEditorApplicationCache
+[2024-01-25 오전 12:59:39] [Debug] [Application] service: Tripolygon.UModeler.Hub.IHubService = Tripolygon.UModeler.Hub.HubService
+[2024-01-25 오전 12:59:39] [Debug] [Application] service: Tripolygon.UModeler.Authentication.IAuthenticationApiProvider = Tripolygon.UModeler.Editor.AuthenticationApiProviderService
+[2024-01-25 오전 12:59:39] [Debug] [Application] service: Tripolygon.UModeler.UI.IApplicationUtilityService = Tripolygon.UModeler.Editor.UI.UnityEditorApplicationUtilityService
+[2024-01-25 오전 12:59:39] [Debug] [Application] service: Tripolygon.UModeler.Editor.UI.ApplicationSettings = Tripolygon.UModeler.Editor.UI.ApplicationSettings
+[2024-01-25 오전 12:59:39] [Debug] [Application] service: Tripolygon.UModeler.UI.IObjectHierarchyService = Tripolygon.UModeler.Editor.UI.UnityEditorObjectHierarchyService
+[2024-01-25 오전 12:59:39] [Debug] [Application] service: Tripolygon.UModeler.UI.ITextureProvider = Tripolygon.UModeler.Editor.UI.UnityEditorTextureProvider
+[2024-01-25 오전 12:59:39] [Debug] [Application] service: Tripolygon.UModeler.Hub.Resources.IResourcesApiProvider = Tripolygon.UModeler.Hub.ResourcesApiProviderService
+[2024-01-25 오전 12:59:39] [Debug] [Application] service: Tripolygon.UModeler.Hub.HubFlashService = Tripolygon.UModeler.Hub.HubFlashService
+[2024-01-25 오전 12:59:39] [Debug] [Application] service: Tripolygon.UModeler.Hub.IHubAnalyticsService = Tripolygon.UModeler.Hub.HubAnalyticsService
+[2024-01-25 오전 12:59:39] [Debug] [Application] service: Tripolygon.UModeler.Hub.VSAttributionService = Tripolygon.UModeler.Hub.VSAttributionService
+[2024-01-25 오전 12:59:39] [Debug] [Application] service: Tripolygon.UModeler.Hub.Notifications.UpdateHubNotifier = Tripolygon.UModeler.Hub.Notifications.UpdateHubNotifier
+[2024-01-25 오전 12:59:39] [Debug] [Application] service: Tripolygon.UModeler.Hub.Notifications.UpdateProductNotifier = Tripolygon.UModeler.Hub.Notifications.UpdateProductNotifier
+[2024-01-25 오전 12:59:39] [Debug] [Application] service: Tripolygon.UModeler.Hub.INoticeService = Tripolygon.UModeler.Hub.Noticies.NoticeService
+[2024-01-25 오전 12:59:39] [Debug] [Application] service: Tripolygon.UModeler.Hub.Views.SceneViews.HubSceneViewService = Tripolygon.UModeler.Hub.Views.SceneViews.HubSceneViewService
+[2024-01-25 오전 12:59:39] [Debug] [Application] Initialize: isReloading=False
+[2024-01-25 오전 12:59:39] [Information] [Authentication] Request TraceId=8e2c7c9fd6fb40708ea4ac6226ca35cc, Uri=https://api.umodeler.com/identity/api/v1/auth/verify
+[2024-01-25 오전 12:59:40] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Hub.HubAuthentication
+[2024-01-25 오전 12:59:40] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Editor.UI.UnityEditorApplicationCache
+[2024-01-25 오전 12:59:40] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Hub.HubService
+[2024-01-25 오전 12:59:40] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Editor.UI.UnityEditorApplicationUtilityService
+[2024-01-25 오전 12:59:40] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Hub.HubFlashService
+[2024-01-25 오전 12:59:40] [Debug] [HubAnalytics] PosthogClient.SetAutoFlush: Value Changed: True
+[2024-01-25 오전 12:59:40] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Hub.HubAnalyticsService
+[2024-01-25 오전 12:59:40] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Hub.VSAttributionService
+[2024-01-25 오전 12:59:40] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Hub.Notifications.UpdateHubNotifier
+[2024-01-25 오전 12:59:40] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Hub.Notifications.UpdateProductNotifier
+[2024-01-25 오전 12:59:40] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Hub.Noticies.NoticeService
+[2024-01-25 오전 12:59:40] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Hub.Views.SceneViews.HubSceneViewService
+[2024-01-25 오전 12:59:43] [Debug] [HubAnalytics] OnAppStart
+[2024-01-25 오전 12:59:43] [Error] [Authentication] 
+(Filename:  Line: 0)
+
+AuthenticationException: Unknown Error(200)
+  at Tripolygon.UModeler.Authentication.AuthenticationOwner.RestoreAsync (System.String idToken, System.String accessToken, System.String refreshToken, System.String tokenType, System.Threading.CancellationToken cancellationToken) [0x0015b] in <9b34523573a24403ad5559622955f7b3>:0 
+  at Tripolygon.UModeler.Authentication.Authenticator.TryRestoreByRefreshInfoAsync (Tripolygon.UModeler.Authentication.IAuthenticationOwner authenticationOwner, System.Threading.CancellationToken cancellationToken) [0x000b8] in <9b34523573a24403ad5559622955f7b3>:0 
+Tripolygon.UModeler.Loggings.UMLogger:ErrorException(Exception, String[])
+Tripolygon.UModeler.Authentication.AuthenticationLogger:ErrorException(Exception, String[])
+Tripolygon.UModeler.Authentication.<TryRestoreByRefreshInfoAsync>d__57:MoveNext()
+System.Runtime.CompilerServices.MoveNextRunner:InvokeMoveNext(Object)
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Threading.ExecutionContext:Run(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+System.Threading.Tasks.AwaitTaskContinuation:InvokeAction(Object)
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback(ContextCallback, Object, Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run(Task, Boolean)
+System.Threading.Tasks.Task:FinishContinuations()
+System.Threading.Tasks.Task:FinishStageThree()
+System.Threading.Tasks.Task:FinishStageTwo()
+System.Threading.Tasks.Task:Finish(Boolean)
+System.Threading.Tasks.Task:TrySetException(Object)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1:SetException(Exception)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder:SetException(Exception)
+Tripolygon.UModeler.Authentication.<RestoreAsync>d__12:MoveNext()
+System.Runtime.CompilerServices.MoveNextRunner:InvokeMoveNext(Object)
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Threading.ExecutionContext:Run(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+System.Threading.Tasks.<>c:<.cctor>b__7_0(Object)
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+UnityEngine.UnitySynchronizationContext:ExecuteTasks()
+
+
+ApiException: HTTP Response: 
+
+
+
+Tripolygon.Backend.Sdk.ApiClients.ApiException: Could not deserialize the response body stream as Tripolygon.Backend.Sdk.ApiClients.IdentityApi.V1.VerifyEndpointResponse.
+
+Status: 200
+Response: 
+
+Headers: 
+  Date:
+    Wed, 24 Jan 2024 15:59:43 GMT
+  Transfer-Encoding:
+    chunked
+  Connection:
+    keep-alive
+  CF-Cache-Status:
+    DYNAMIC
+  Report-To:
+    {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=objge4emtIFNVea9%2FeOUD5u2a2AnoTmE%2FrFycsKHwJoWH6Xy7p%2FOhjtuT%2BMkrrC%2FUuiwlU5BfxY5vN%2BsaQqwg4mzfvucM5pyeBlqOyBInizfHkF2CVPXoofdjMepbnGgKwk%3D"}],"group":"cf-nel","max_age":604800}
+  NEL:
+    {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+  Server:
+    cloudflare
+  CF-RAY:
+    84a97c358cb430df-ICN
+  Content-Type:
+    text/html; charset=UTF-8
+ ---> Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+  at Newtonsoft.Json.JsonTextReader.ParseValue () [0x002b3] in <9b34523573a24403ad5559622955f7b3>:0 
+  at Newtonsoft.Json.JsonTextReader.Read () [0x0004c] in <9b34523573a24403ad5559622955f7b3>:0 
+  at Newtonsoft.Json.JsonReader.ReadAndMoveToContent () [0x00000] in <9b34523573a24403ad5559622955f7b3>:0 
+  at Newtonsoft.Json.JsonReader.ReadForType (Newtonsoft.Json.Serialization.JsonContract contract, System.Boolean hasConverter) [0x0004a] in <9b34523573a24403ad5559622955f7b3>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Boolean checkAdditionalContent) [0x000db] in <9b34523573a24403ad5559622955f7b3>:0 
+  at Newtonsoft.Json.JsonSerializer.DeserializeInternal (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00054] in <9b34523573a24403ad5559622955f7b3>:0 
+  at Newtonsoft.Json.JsonSerializer.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00000] in <9b34523573a24403ad5559622955f7b3>:0 
+  at Newtonsoft.Json.JsonSerializer.Deserialize[T] (Newtonsoft.Json.JsonReader reader) [0x00000] in <9b34523573a24403ad5559622955f7b3>:0 
+  at Tripolygon.Backend.Sdk.ApiClients.IdentityApi.V1.IdentityApiClientBase.ReadObjectResponseAsync[T] (System.Net.Http.HttpResponseMessage response, System.Collections.Generic.IReadOnlyDictionary`2[TKey,TValue] headers, System.Threading.CancellationToken cancellationToken) [0x001b7] in <9b34523573a24403ad5559622955f7b3>:0 
+   --- End of inner exception stack trace ---
+  at Tripolygon.Backend.Sdk.ApiClients.IdentityApi.V1.IdentityApiClientBase.ReadObjectResponseAsync[T] (System.Net.Http.HttpResponseMessage response, System.Collections.Generic.IReadOnlyDictionary`2[TKey,TValue] headers, System.Threading.CancellationToken cancellationToken) [0x0023f] in <9b34523573a24403ad5559622955f7b3>:0 
+  at Tripolygon.Backend.Sdk.ApiClients.IdentityApi.V1.IdentityApiClientBase.VerifyAsync (System.String authorization, System.Threading.CancellationToken cancellationToken) [0x00336] in <9b34523573a24403ad5559622955f7b3>:0 
+  at Tripolygon.UModeler.Authentication.AuthenticationOwner.RestoreAsync (System.String idToken, System.String accessToken, System.String refreshToken, System.String tokenType, System.Threading.CancellationToken cancellationToken) [0x000b9] in <9b34523573a24403ad5559622955f7b3>:0 
+
+JsonReaderException: Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+  at Newtonsoft.Json.JsonTextReader.ParseValue () [0x002b3] in <9b34523573a24403ad5559622955f7b3>:0 
+  at Newtonsoft.Json.JsonTextReader.Read () [0x0004c] in <9b34523573a24403ad5559622955f7b3>:0 
+  at Newtonsoft.Json.JsonReader.ReadAndMoveToContent () [0x00000] in <9b34523573a24403ad5559622955f7b3>:0 
+  at Newtonsoft.Json.JsonReader.ReadForType (Newtonsoft.Json.Serialization.JsonContract contract, System.Boolean hasConverter) [0x0004a] in <9b34523573a24403ad5559622955f7b3>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Boolean checkAdditionalContent) [0x000db] in <9b34523573a24403ad5559622955f7b3>:0 
+  at Newtonsoft.Json.JsonSerializer.DeserializeInternal (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00054] in <9b34523573a24403ad5559622955f7b3>:0 
+  at Newtonsoft.Json.JsonSerializer.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00000] in <9b34523573a24403ad5559622955f7b3>:0 
+  at Newtonsoft.Json.JsonSerializer.Deserialize[T] (Newtonsoft.Json.JsonReader reader) [0x00000] in <9b34523573a24403ad5559622955f7b3>:0 
+  at Tripolygon.Backend.Sdk.ApiClients.IdentityApi.V1.IdentityApiClientBase.ReadObjectResponseAsync[T] (System.Net.Http.HttpResponseMessage response, System.Collections.Generic.IReadOnlyDictionary`2[TKey,TValue] headers, System.Threading.CancellationToken cancellationToken) [0x001b7] in <9b34523573a24403ad5559622955f7b3>:0 
+[2024-01-25 오전 12:59:43] [Information] [Authentication] Request TraceId=652999d4e9cc4762b87d0bc9382e4e53, Uri=https://api.umodeler.com/identity/api/v1/auth/signin
+[2024-01-25 오전 12:59:44] [Debug] [Authentication] SignedIn
+[2024-01-25 오전 12:59:44] [Information] [Authentication] Request TraceId=643e43cea4bb46f1a29004f7663758ab, Uri=https://api.umodeler.com/resources/api/v1/packages/UModelerHub/version?branch=main
+[2024-01-25 오전 12:59:44] [Debug] [HubAnalytics] OnSignIn
+[2024-01-25 오전 12:59:44] [Information] [Authentication] Request TraceId=e09270d9e5a94f4aa69533e50b1890a7, Uri=https://api.umodeler.com/resources/api/v1/packages/UModelerX/version?branch=main
+[2024-01-25 오전 12:59:45] [Information] [Authentication] Request TraceId=415ab8e22bcf4fbcad2e29a8a6c625a6, Uri=https://api.umodeler.com/identity/api/v1/hub/info
+[2024-01-25 오전 12:59:45] [Information] [Authentication] Request TraceId=44faf6a956fa45348ee2b8c5d5f23343, Uri=https://api.umodeler.com/resources/api/v1/resources/user-resources?c=ko&current=1&pageSize=20
+[2024-01-25 오전 12:59:50] [Debug] [HubAnalytics] PosthogClient.BatchAsync: Sending Queue Items={"api_key":"phc_DQ6tsN03HRXTr9hNBfi3DierOY5Y0SisUxgxjuAmZG5","batch":[{"event":"app start","properties":{"$set":{"sdk_region_id":"ko-KR","sdk_region_name":"South Korea","sdk_language":"Korean","sdk_os_architecture":"X64","sdk_time_zone":"Korea Standard Time","product_version":"0.12.6","platform_account_id":"anonymous","platform_account_name":"JBn8JYhFPlC9rwoH3WnBFfWzUyPWJmWUzxBTLzqHTLO9SU/wTpjmZadyZIfUm3NkSnm3Q80q9e/+p7wD3vdDZ2MCsP66fpJBZOXN/G+YHMHq6zSREe7ES1OXMiqXmfPolxgL6uzoYgX5LpeA+P42gSCOh7tySWkjqBpgWvftvasbysGz6AxuQ2MD/Heq/yKHESeAn/nu7yAzmeUvPDVnKtcyVY6ocC9/ZII6PGm7XJXGssYioyyrVKqPNkA2Qm2+xZUnYhr4VkGu1Sw756PyQj/lfijZyl3hdlyAxqZNbuNsk4zaSjrHfEb2rA136DQEKJHt8ZogFxgfgN0mTL8Xvw=="},"$os":"WINDOWS","$os_name":"WINDOWS","$session_id":"aab9f8d5-7aa2-4456-830c-1fc47fa6553a_43447766-6d54-4794-b3f0-35fa14940d3d","distinct_id":"34911c4dfa598cfcdad790f4d825062a751eda76","product_name":"UModeler Hub","product_version":"0.12.6","platform_name":"Unity","platform_version":"2021.3.29f1","screen_width":3440,"screen_height":1440,"viewport_width":1064,"viewport_height":429,"unity_systeminfo_language":"Korean","unity_systeminfo_os":"Windows 11  (10.0.22621) 64bit","unity_systeminfo_graphicsDeviceType":"Direct3D11","unity_systeminfo_graphicsDeviceVendor":"NVIDIA","unity_systeminfo_graphicsDeviceName":"NVIDIA GeForce RTX 3060 Ti","unity_systeminfo_deviceType":"Desktop","unity_systeminfo_processorType":"AMD Ryzen 5 5600G with Radeon Graphics "},"timestamp":"2024-01-24T15:59:43.2766436Z"},{"event":"open","properties":{"$set":{"sdk_region_id":"ko-KR","sdk_region_name":"South Korea","sdk_language":"Korean","sdk_os_architecture":"X64","sdk_time_zone":"Korea Standard Time","product_version":"0.12.6"},"$os":"WINDOWS","$os_name":"WINDOWS","$session_id":"aab9f8d5-7aa2-4456-830c-1fc47fa6553a_43447766-6d54-4794-b3f0-35fa14940d3d","distinct_id":"34911c4dfa598cfcdad790f4d825062a751eda76","product_name":"UModeler Hub","product_version":"0.12.6","platform_name":"Unity","platform_version":"2021.3.29f1","screen_width":3440,"screen_height":1440,"viewport_width":1064,"viewport_height":429,"unity_systeminfo_language":"Korean","unity_systeminfo_os":"Windows 11  (10.0.22621) 64bit","unity_systeminfo_graphicsDeviceType":"Direct3D11","unity_systeminfo_graphicsDeviceVendor":"NVIDIA","unity_systeminfo_graphicsDeviceName":"NVIDIA GeForce RTX 3060 Ti","unity_systeminfo_deviceType":"Desktop","unity_systeminfo_processorType":"AMD Ryzen 5 5600G with Radeon Graphics ","type":"HubWindow","data_context":"Tripolygon.UModeler.Hub.Views.Hubs.HubEditorViewModel"},"timestamp":"2024-01-24T15:59:43.4943949Z"},{"event":"page_view","properties":{"$set":{"sdk_region_id":"ko-KR","sdk_region_name":"South Korea","sdk_language":"Korean","sdk_os_architecture":"X64","sdk_time_zone":"Korea Standard Time","product_version":"0.12.6"},"$os":"WINDOWS","$os_name":"WINDOWS","$session_id":"aab9f8d5-7aa2-4456-830c-1fc47fa6553a_43447766-6d54-4794-b3f0-35fa14940d3d","distinct_id":"34911c4dfa598cfcdad790f4d825062a751eda76","product_name":"UModeler Hub","product_version":"0.12.6","platform_name":"Unity","platform_version":"2021.3.29f1","screen_width":3440,"screen_height":1440,"viewport_width":1064,"viewport_height":429,"unity_systeminfo_language":"Korean","unity_systeminfo_os":"Windows 11  (10.0.22621) 64bit","unity_systeminfo_graphicsDeviceType":"Direct3D11","unity_systeminfo_graphicsDeviceVendor":"NVIDIA","unity_systeminfo_graphicsDeviceName":"NVIDIA GeForce RTX 3060 Ti","unity_systeminfo_deviceType":"Desktop","unity_systeminfo_processorType":"AMD Ryzen 5 5600G with Radeon Graphics ","type":"HomePage.All Products","scope":"HubWindow","data_context":"Tripolygon.UModeler.Hub.Views.Hubs.Homes.ProductsViewModel"},"timestamp":"2024-01-24T15:59:43.7192546Z"},{"event":"page_view","properties":{"$set":{"sdk_region_id":"ko-KR","sdk_region_name":"South Korea","sdk_language":"Korean","sdk_os_architecture":"X64","sdk_time_zone":"Korea Standard Time","product_version":"0.12.6"},"$os":"WINDOWS","$os_name":"WINDOWS","$session_id":"aab9f8d5-7aa2-4456-830c-1fc47fa6553a_43447766-6d54-4794-b3f0-35fa14940d3d","distinct_id":"34911c4dfa598cfcdad790f4d825062a751eda76","product_name":"UModeler Hub","product_version":"0.12.6","platform_name":"Unity","platform_version":"2021.3.29f1","screen_width":3440,"screen_height":1440,"viewport_width":1064,"viewport_height":429,"unity_systeminfo_language":"Korean","unity_systeminfo_os":"Windows 11  (10.0.22621) 64bit","unity_systeminfo_graphicsDeviceType":"Direct3D11","unity_systeminfo_graphicsDeviceVendor":"NVIDIA","unity_systeminfo_graphicsDeviceName":"NVIDIA GeForce RTX 3060 Ti","unity_systeminfo_deviceType":"Desktop","unity_systeminfo_processorType":"AMD Ryzen 5 5600G with Radeon Graphics ","type":"EmailPage","scope":"HubWindow","data_context":"HubSignInViewModel"},"timestamp":"2024-01-24T15:59:43.7367735Z"},{"event":"signin","properties":{"$set":{"sdk_region_id":"ko-KR","sdk_region_name":"South Korea","sdk_language":"Korean","sdk_os_architecture":"X64","sdk_time_zone":"Korea Standard Time","product_version":"0.12.6","product_user_email":"songyechan1007@gmail.com"},"$os":"WINDOWS","$os_name":"WINDOWS","$session_id":"aab9f8d5-7aa2-4456-830c-1fc47fa6553a_43447766-6d54-4794-b3f0-35fa14940d3d","distinct_id":"songyechan1007@gmail.com","product_name":"UModeler Hub","product_version":"0.12.6","platform_name":"Unity","platform_version":"2021.3.29f1","screen_width":3440,"screen_height":1440,"viewport_width":1064,"viewport_height":429,"unity_systeminfo_language":"Korean","unity_systeminfo_os":"Windows 11  (10.0.22621) 64bit","unity_systeminfo_graphicsDeviceType":"Direct3D11","unity_systeminfo_graphicsDeviceVendor":"NVIDIA","unity_systeminfo_graphicsDeviceName":"NVIDIA GeForce RTX 3060 Ti","unity_systeminfo_deviceType":"Desktop","unity_systeminfo_processorType":"AMD Ryzen 5 5600G with Radeon Graphics "},"timestamp":"2024-01-24T15:59:44.469349Z"},{"event":"$identify","properties":{"$set":{"sdk_region_id":"ko-KR","sdk_region_name":"South Korea","sdk_language":"Korean","sdk_os_architecture":"X64","sdk_time_zone":"Korea Standard Time","product_version":"0.12.6"},"$os":"WINDOWS","$os_name":"WINDOWS","$session_id":"aab9f8d5-7aa2-4456-830c-1fc47fa6553a_43447766-6d54-4794-b3f0-35fa14940d3d","distinct_id":"songyechan1007@gmail.com","product_name":"UModeler Hub","product_version":"0.12.6","platform_name":"Unity","platform_version":"2021.3.29f1","screen_width":3440,"screen_height":1440,"viewport_width":1064,"viewport_height":429,"unity_systeminfo_language":"Korean","unity_systeminfo_os":"Windows 11  (10.0.22621) 64bit","unity_systeminfo_graphicsDeviceType":"Direct3D11","unity_systeminfo_graphicsDeviceVendor":"NVIDIA","unity_systeminfo_graphicsDeviceName":"NVIDIA GeForce RTX 3060 Ti","unity_systeminfo_deviceType":"Desktop","unity_systeminfo_processorType":"AMD Ryzen 5 5600G with Radeon Graphics "},"timestamp":"2024-01-24T15:59:44.469349Z"},{"event":"page_view","properties":{"$set":{"sdk_region_id":"ko-KR","sdk_region_name":"South Korea","sdk_language":"Korean","sdk_os_architecture":"X64","sdk_time_zone":"Korea Standard Time","product_version":"0.12.6"},"$os":"WINDOWS","$os_name":"WINDOWS","$session_id":"aab9f8d5-7aa2-4456-830c-1fc47fa6553a_43447766-6d54-4794-b3f0-35fa14940d3d","distinct_id":"songyechan1007@gmail.com","product_name":"UModeler Hub","product_version":"0.12.6","platform_name":"Unity","platform_version":"2021.3.29f1","screen_width":3440,"screen_height":1440,"viewport_width":1064,"viewport_height":429,"unity_systeminfo_language":"Korean","unity_systeminfo_os":"Windows 11  (10.0.22621) 64bit","unity_systeminfo_graphicsDeviceType":"Direct3D11","unity_systeminfo_graphicsDeviceVendor":"NVIDIA","unity_systeminfo_graphicsDeviceName":"NVIDIA GeForce RTX 3060 Ti","unity_systeminfo_deviceType":"Desktop","unity_systeminfo_processorType":"AMD Ryzen 5 5600G with Radeon Graphics ","type":"HomePage","scope":"HubWindow","data_context":"HubHomeViewModel"},"timestamp":"2024-01-24T15:59:44.4733517Z"}]}
+[2024-01-25 오전 12:59:50] [Debug] [HubAnalytics] PosthogClient.BatchAsync: Sent 7 queue item(s).
+[2024-01-25 오전 1:10:53] [Debug] [Application] Release: isReloading=True
+[2024-01-25 오전 1:10:53] [Debug] [Application] Service Release: Tripolygon.UModeler.Hub.Views.SceneViews.HubSceneViewService
+[2024-01-25 오전 1:10:53] [Debug] [Application] Service Release: Tripolygon.UModeler.Hub.Noticies.NoticeService
+[2024-01-25 오전 1:10:53] [Debug] [Application] Service Release: Tripolygon.UModeler.Hub.Notifications.UpdateProductNotifier
+[2024-01-25 오전 1:10:53] [Debug] [Application] Service Release: Tripolygon.UModeler.Hub.Notifications.UpdateHubNotifier
+[2024-01-25 오전 1:10:53] [Debug] [Application] Service Release: Tripolygon.UModeler.Hub.VSAttributionService
+[2024-01-25 오전 1:10:53] [Debug] [HubAnalytics] PosthogClient.SetAutoFlush: Value Changed: False
+[2024-01-25 오전 1:10:53] [Debug] [Application] Service Release: Tripolygon.UModeler.Hub.HubAnalyticsService
+[2024-01-25 오전 1:10:53] [Debug] [Application] Service Release: Tripolygon.UModeler.Hub.HubFlashService
+[2024-01-25 오전 1:10:53] [Debug] [Application] Service Release: Tripolygon.UModeler.Editor.UI.UnityEditorApplicationUtilityService
+[2024-01-25 오전 1:10:53] [Debug] [Application] Service Release: Tripolygon.UModeler.Hub.HubService
+[2024-01-25 오전 1:10:53] [Debug] [Application] Service Release: Tripolygon.UModeler.Editor.UI.UnityEditorApplicationCache
+[2024-01-25 오전 1:10:53] [Debug] [Application] Service Release: Tripolygon.UModeler.Hub.HubAuthentication
+[2024-01-25 오전 1:10:55] [Debug] [Application] service: Tripolygon.UModeler.Hub.HubAuthentication = Tripolygon.UModeler.Hub.HubAuthentication
+[2024-01-25 오전 1:10:55] [Debug] [Application] service: Tripolygon.UModeler.UI.IApplicationCache = Tripolygon.UModeler.Editor.UI.UnityEditorApplicationCache
+[2024-01-25 오전 1:10:55] [Debug] [Application] service: Tripolygon.UModeler.Hub.IHubService = Tripolygon.UModeler.Hub.HubService
+[2024-01-25 오전 1:10:55] [Debug] [Application] service: Tripolygon.UModeler.Authentication.IAuthenticationApiProvider = Tripolygon.UModeler.Editor.AuthenticationApiProviderService
+[2024-01-25 오전 1:10:55] [Debug] [Application] service: Tripolygon.UModeler.UI.IApplicationUtilityService = Tripolygon.UModeler.Editor.UI.UnityEditorApplicationUtilityService
+[2024-01-25 오전 1:10:55] [Debug] [Application] service: Tripolygon.UModeler.Editor.UI.ApplicationSettings = Tripolygon.UModeler.Editor.UI.ApplicationSettings
+[2024-01-25 오전 1:10:55] [Debug] [Application] service: Tripolygon.UModeler.UI.IObjectHierarchyService = Tripolygon.UModeler.Editor.UI.UnityEditorObjectHierarchyService
+[2024-01-25 오전 1:10:55] [Debug] [Application] service: Tripolygon.UModeler.UI.ITextureProvider = Tripolygon.UModeler.Editor.UI.UnityEditorTextureProvider
+[2024-01-25 오전 1:10:55] [Debug] [Application] service: Tripolygon.UModeler.Hub.Resources.IResourcesApiProvider = Tripolygon.UModeler.Hub.ResourcesApiProviderService
+[2024-01-25 오전 1:10:55] [Debug] [Application] service: Tripolygon.UModeler.Hub.HubFlashService = Tripolygon.UModeler.Hub.HubFlashService
+[2024-01-25 오전 1:10:55] [Debug] [Application] service: Tripolygon.UModeler.Hub.IHubAnalyticsService = Tripolygon.UModeler.Hub.HubAnalyticsService
+[2024-01-25 오전 1:10:55] [Debug] [Application] service: Tripolygon.UModeler.Hub.VSAttributionService = Tripolygon.UModeler.Hub.VSAttributionService
+[2024-01-25 오전 1:10:55] [Debug] [Application] service: Tripolygon.UModeler.Hub.Notifications.UpdateHubNotifier = Tripolygon.UModeler.Hub.Notifications.UpdateHubNotifier
+[2024-01-25 오전 1:10:55] [Debug] [Application] service: Tripolygon.UModeler.Hub.Notifications.UpdateProductNotifier = Tripolygon.UModeler.Hub.Notifications.UpdateProductNotifier
+[2024-01-25 오전 1:10:55] [Debug] [Application] service: Tripolygon.UModeler.Hub.INoticeService = Tripolygon.UModeler.Hub.Noticies.NoticeService
+[2024-01-25 오전 1:10:55] [Debug] [Application] service: Tripolygon.UModeler.Hub.Views.SceneViews.HubSceneViewService = Tripolygon.UModeler.Hub.Views.SceneViews.HubSceneViewService
+[2024-01-25 오전 1:10:56] [Debug] [Application] Initialize: isReloading=True
+[2024-01-25 오전 1:10:56] [Information] [Authentication] Request TraceId=8ab3047efc8343009c6869e555e30f60, Uri=https://api.umodeler.com/identity/api/v1/auth/verify
+[2024-01-25 오전 1:10:56] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Hub.HubAuthentication
+[2024-01-25 오전 1:10:56] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Editor.UI.UnityEditorApplicationCache
+[2024-01-25 오전 1:10:56] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Hub.HubService
+[2024-01-25 오전 1:10:56] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Editor.UI.UnityEditorApplicationUtilityService
+[2024-01-25 오전 1:10:56] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Hub.HubFlashService
+[2024-01-25 오전 1:10:56] [Debug] [HubAnalytics] PosthogClient.SetAutoFlush: Value Changed: True
+[2024-01-25 오전 1:10:56] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Hub.HubAnalyticsService
+[2024-01-25 오전 1:10:56] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Hub.VSAttributionService
+[2024-01-25 오전 1:10:56] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Hub.Notifications.UpdateHubNotifier
+[2024-01-25 오전 1:10:56] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Hub.Notifications.UpdateProductNotifier
+[2024-01-25 오전 1:10:56] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Hub.Noticies.NoticeService
+[2024-01-25 오전 1:10:56] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Hub.Views.SceneViews.HubSceneViewService
+[2024-01-25 오전 1:10:58] [Error] [Authentication] 
+(Filename:  Line: 0)
+
+AuthenticationException: Unknown Error(200)
+  at Tripolygon.UModeler.Authentication.AuthenticationOwner.RestoreAsync (System.String idToken, System.String accessToken, System.String refreshToken, System.String tokenType, System.Threading.CancellationToken cancellationToken) [0x0015b] in <9b34523573a24403ad5559622955f7b3>:0 
+  at Tripolygon.UModeler.Authentication.Authenticator.TryRestoreByRefreshInfoAsync (Tripolygon.UModeler.Authentication.IAuthenticationOwner authenticationOwner, System.Threading.CancellationToken cancellationToken) [0x000b8] in <9b34523573a24403ad5559622955f7b3>:0 
+Tripolygon.UModeler.Loggings.UMLogger:ErrorException(Exception, String[])
+Tripolygon.UModeler.Authentication.AuthenticationLogger:ErrorException(Exception, String[])
+Tripolygon.UModeler.Authentication.<TryRestoreByRefreshInfoAsync>d__57:MoveNext()
+System.Runtime.CompilerServices.MoveNextRunner:InvokeMoveNext(Object)
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Threading.ExecutionContext:Run(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+System.Threading.Tasks.AwaitTaskContinuation:InvokeAction(Object)
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback(ContextCallback, Object, Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run(Task, Boolean)
+System.Threading.Tasks.Task:FinishContinuations()
+System.Threading.Tasks.Task:FinishStageThree()
+System.Threading.Tasks.Task:FinishStageTwo()
+System.Threading.Tasks.Task:Finish(Boolean)
+System.Threading.Tasks.Task:TrySetException(Object)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1:SetException(Exception)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder:SetException(Exception)
+Tripolygon.UModeler.Authentication.<RestoreAsync>d__12:MoveNext()
+System.Runtime.CompilerServices.MoveNextRunner:InvokeMoveNext(Object)
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Threading.ExecutionContext:Run(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+System.Threading.Tasks.<>c:<.cctor>b__7_0(Object)
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+UnityEngine.UnitySynchronizationContext:ExecuteTasks()
+
+
+ApiException: HTTP Response: 
+
+
+
+Tripolygon.Backend.Sdk.ApiClients.ApiException: Could not deserialize the response body stream as Tripolygon.Backend.Sdk.ApiClients.IdentityApi.V1.VerifyEndpointResponse.
+
+Status: 200
+Response: 
+
+Headers: 
+  Date:
+    Wed, 24 Jan 2024 16:11:00 GMT
+  Transfer-Encoding:
+    chunked
+  Connection:
+    keep-alive
+  CF-Cache-Status:
+    DYNAMIC
+  Report-To:
+    {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=1Ub%2BYjm44bUK4pbc2Zd4bSS%2ByJsK58J3r0guDipo%2BNBjYw0EQpzbAKXRtKF1gfiXWWt%2BU8qaq0wOlmBG82Putt%2FQbV1wkz9rSEbE79a8qes9dAzzVW3bXcAhk8Bd2HwhvO0%3D"}],"group":"cf-nel","max_age":604800}
+  NEL:
+    {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+  Server:
+    cloudflare
+  CF-RAY:
+    84a98cbabfaf315e-ICN
+  Content-Type:
+    text/html; charset=UTF-8
+ ---> Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+  at Newtonsoft.Json.JsonTextReader.ParseValue () [0x002b3] in <9b34523573a24403ad5559622955f7b3>:0 
+  at Newtonsoft.Json.JsonTextReader.Read () [0x0004c] in <9b34523573a24403ad5559622955f7b3>:0 
+  at Newtonsoft.Json.JsonReader.ReadAndMoveToContent () [0x00000] in <9b34523573a24403ad5559622955f7b3>:0 
+  at Newtonsoft.Json.JsonReader.ReadForType (Newtonsoft.Json.Serialization.JsonContract contract, System.Boolean hasConverter) [0x0004a] in <9b34523573a24403ad5559622955f7b3>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Boolean checkAdditionalContent) [0x000db] in <9b34523573a24403ad5559622955f7b3>:0 
+  at Newtonsoft.Json.JsonSerializer.DeserializeInternal (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00054] in <9b34523573a24403ad5559622955f7b3>:0 
+  at Newtonsoft.Json.JsonSerializer.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00000] in <9b34523573a24403ad5559622955f7b3>:0 
+  at Newtonsoft.Json.JsonSerializer.Deserialize[T] (Newtonsoft.Json.JsonReader reader) [0x00000] in <9b34523573a24403ad5559622955f7b3>:0 
+  at Tripolygon.Backend.Sdk.ApiClients.IdentityApi.V1.IdentityApiClientBase.ReadObjectResponseAsync[T] (System.Net.Http.HttpResponseMessage response, System.Collections.Generic.IReadOnlyDictionary`2[TKey,TValue] headers, System.Threading.CancellationToken cancellationToken) [0x001b7] in <9b34523573a24403ad5559622955f7b3>:0 
+   --- End of inner exception stack trace ---
+  at Tripolygon.Backend.Sdk.ApiClients.IdentityApi.V1.IdentityApiClientBase.ReadObjectResponseAsync[T] (System.Net.Http.HttpResponseMessage response, System.Collections.Generic.IReadOnlyDictionary`2[TKey,TValue] headers, System.Threading.CancellationToken cancellationToken) [0x0023f] in <9b34523573a24403ad5559622955f7b3>:0 
+  at Tripolygon.Backend.Sdk.ApiClients.IdentityApi.V1.IdentityApiClientBase.VerifyAsync (System.String authorization, System.Threading.CancellationToken cancellationToken) [0x00336] in <9b34523573a24403ad5559622955f7b3>:0 
+  at Tripolygon.UModeler.Authentication.AuthenticationOwner.RestoreAsync (System.String idToken, System.String accessToken, System.String refreshToken, System.String tokenType, System.Threading.CancellationToken cancellationToken) [0x000b9] in <9b34523573a24403ad5559622955f7b3>:0 
+
+JsonReaderException: Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+  at Newtonsoft.Json.JsonTextReader.ParseValue () [0x002b3] in <9b34523573a24403ad5559622955f7b3>:0 
+  at Newtonsoft.Json.JsonTextReader.Read () [0x0004c] in <9b34523573a24403ad5559622955f7b3>:0 
+  at Newtonsoft.Json.JsonReader.ReadAndMoveToContent () [0x00000] in <9b34523573a24403ad5559622955f7b3>:0 
+  at Newtonsoft.Json.JsonReader.ReadForType (Newtonsoft.Json.Serialization.JsonContract contract, System.Boolean hasConverter) [0x0004a] in <9b34523573a24403ad5559622955f7b3>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Boolean checkAdditionalContent) [0x000db] in <9b34523573a24403ad5559622955f7b3>:0 
+  at Newtonsoft.Json.JsonSerializer.DeserializeInternal (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00054] in <9b34523573a24403ad5559622955f7b3>:0 
+  at Newtonsoft.Json.JsonSerializer.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00000] in <9b34523573a24403ad5559622955f7b3>:0 
+  at Newtonsoft.Json.JsonSerializer.Deserialize[T] (Newtonsoft.Json.JsonReader reader) [0x00000] in <9b34523573a24403ad5559622955f7b3>:0 
+  at Tripolygon.Backend.Sdk.ApiClients.IdentityApi.V1.IdentityApiClientBase.ReadObjectResponseAsync[T] (System.Net.Http.HttpResponseMessage response, System.Collections.Generic.IReadOnlyDictionary`2[TKey,TValue] headers, System.Threading.CancellationToken cancellationToken) [0x001b7] in <9b34523573a24403ad5559622955f7b3>:0 
+[2024-01-25 오전 1:10:58] [Information] [Authentication] Request TraceId=89675f7069d44cdea20f1f59d5a0a077, Uri=https://api.umodeler.com/identity/api/v1/auth/signin
+[2024-01-25 오전 1:10:58] [Debug] [Authentication] SignedIn
+[2024-01-25 오전 1:10:58] [Information] [Authentication] Request TraceId=268e40b3b794461e884fea23543b9485, Uri=https://api.umodeler.com/resources/api/v1/packages/UModelerHub/version?branch=main
+[2024-01-25 오전 1:10:58] [Debug] [HubAnalytics] OnSignIn
+[2024-01-25 오전 1:10:59] [Information] [Authentication] Request TraceId=be87be164bf941deabfe0a345bcec579, Uri=https://api.umodeler.com/resources/api/v1/packages/UModelerX/version?branch=main
+[2024-01-25 오전 1:10:59] [Information] [Authentication] Request TraceId=840a5c0ce7f7405db159bfd5a88cd9f7, Uri=https://api.umodeler.com/identity/api/v1/hub/info
+[2024-01-25 오전 1:11:00] [Information] [Authentication] Request TraceId=25f7716a6fe243b2b6dd744111e2366a, Uri=https://api.umodeler.com/resources/api/v1/resources/user-resources?c=ko&current=1&pageSize=20
+[2024-01-25 오전 1:11:06] [Debug] [HubAnalytics] PosthogClient.BatchAsync: Sending Queue Items={"api_key":"phc_DQ6tsN03HRXTr9hNBfi3DierOY5Y0SisUxgxjuAmZG5","batch":[{"event":"signin","properties":{"$set":{"sdk_region_id":"ko-KR","sdk_region_name":"South Korea","sdk_language":"Korean","sdk_os_architecture":"X64","sdk_time_zone":"Korea Standard Time","product_version":"0.12.6","product_user_email":"songyechan1007@gmail.com"},"$os":"WINDOWS","$os_name":"WINDOWS","$session_id":"e7fd41ad-818f-4882-ae26-66f633be1c88_15951b8a-133a-41cb-baab-b77e4b8356e0","distinct_id":"songyechan1007@gmail.com","product_name":"UModeler Hub","product_version":"0.12.6","platform_name":"Unity","platform_version":"2021.3.29f1","screen_width":3440,"screen_height":1440,"viewport_width":1309,"viewport_height":1241,"unity_systeminfo_language":"Korean","unity_systeminfo_os":"Windows 11  (10.0.22621) 64bit","unity_systeminfo_graphicsDeviceType":"Direct3D11","unity_systeminfo_graphicsDeviceVendor":"NVIDIA","unity_systeminfo_graphicsDeviceName":"NVIDIA GeForce RTX 3060 Ti","unity_systeminfo_deviceType":"Desktop","unity_systeminfo_processorType":"AMD Ryzen 5 5600G with Radeon Graphics "},"timestamp":"2024-01-24T16:10:58.9850223Z"},{"event":"$identify","properties":{"$set":{"sdk_region_id":"ko-KR","sdk_region_name":"South Korea","sdk_language":"Korean","sdk_os_architecture":"X64","sdk_time_zone":"Korea Standard Time","product_version":"0.12.6"},"$os":"WINDOWS","$os_name":"WINDOWS","$session_id":"e7fd41ad-818f-4882-ae26-66f633be1c88_15951b8a-133a-41cb-baab-b77e4b8356e0","distinct_id":"songyechan1007@gmail.com","product_name":"UModeler Hub","product_version":"0.12.6","platform_name":"Unity","platform_version":"2021.3.29f1","screen_width":3440,"screen_height":1440,"viewport_width":1309,"viewport_height":1241,"unity_systeminfo_language":"Korean","unity_systeminfo_os":"Windows 11  (10.0.22621) 64bit","unity_systeminfo_graphicsDeviceType":"Direct3D11","unity_systeminfo_graphicsDeviceVendor":"NVIDIA","unity_systeminfo_graphicsDeviceName":"NVIDIA GeForce RTX 3060 Ti","unity_systeminfo_deviceType":"Desktop","unity_systeminfo_processorType":"AMD Ryzen 5 5600G with Radeon Graphics "},"timestamp":"2024-01-24T16:10:58.9850223Z"}]}
+[2024-01-25 오전 1:11:07] [Debug] [HubAnalytics] PosthogClient.BatchAsync: Sent 2 queue item(s).
+[2024-01-25 오전 1:11:08] [Debug] [Application] Release: isReloading=True
+[2024-01-25 오전 1:11:08] [Debug] [Application] Service Release: Tripolygon.UModeler.Hub.Views.SceneViews.HubSceneViewService
+[2024-01-25 오전 1:11:08] [Debug] [Application] Service Release: Tripolygon.UModeler.Hub.Noticies.NoticeService
+[2024-01-25 오전 1:11:08] [Debug] [Application] Service Release: Tripolygon.UModeler.Hub.Notifications.UpdateProductNotifier
+[2024-01-25 오전 1:11:08] [Debug] [Application] Service Release: Tripolygon.UModeler.Hub.Notifications.UpdateHubNotifier
+[2024-01-25 오전 1:11:08] [Debug] [Application] Service Release: Tripolygon.UModeler.Hub.VSAttributionService
+[2024-01-25 오전 1:11:08] [Debug] [HubAnalytics] PosthogClient.SetAutoFlush: Value Changed: False
+[2024-01-25 오전 1:11:08] [Debug] [Application] Service Release: Tripolygon.UModeler.Hub.HubAnalyticsService
+[2024-01-25 오전 1:11:08] [Debug] [Application] Service Release: Tripolygon.UModeler.Hub.HubFlashService
+[2024-01-25 오전 1:11:08] [Debug] [Application] Service Release: Tripolygon.UModeler.Editor.UI.UnityEditorApplicationUtilityService
+[2024-01-25 오전 1:11:08] [Debug] [Application] Service Release: Tripolygon.UModeler.Hub.HubService
+[2024-01-25 오전 1:11:08] [Debug] [Application] Service Release: Tripolygon.UModeler.Editor.UI.UnityEditorApplicationCache
+[2024-01-25 오전 1:11:08] [Debug] [Application] Service Release: Tripolygon.UModeler.Hub.HubAuthentication
+[2024-01-25 오전 1:11:09] [Debug] [Application] service: Tripolygon.UModeler.Hub.HubAuthentication = Tripolygon.UModeler.Hub.HubAuthentication
+[2024-01-25 오전 1:11:09] [Debug] [Application] service: Tripolygon.UModeler.UI.IApplicationCache = Tripolygon.UModeler.Editor.UI.UnityEditorApplicationCache
+[2024-01-25 오전 1:11:10] [Debug] [Application] service: Tripolygon.UModeler.Hub.IHubService = Tripolygon.UModeler.Hub.HubService
+[2024-01-25 오전 1:11:10] [Debug] [Application] service: Tripolygon.UModeler.Authentication.IAuthenticationApiProvider = Tripolygon.UModeler.Editor.AuthenticationApiProviderService
+[2024-01-25 오전 1:11:10] [Debug] [Application] service: Tripolygon.UModeler.UI.IApplicationUtilityService = Tripolygon.UModeler.Editor.UI.UnityEditorApplicationUtilityService
+[2024-01-25 오전 1:11:10] [Debug] [Application] service: Tripolygon.UModeler.Editor.UI.ApplicationSettings = Tripolygon.UModeler.Editor.UI.ApplicationSettings
+[2024-01-25 오전 1:11:10] [Debug] [Application] service: Tripolygon.UModeler.UI.IObjectHierarchyService = Tripolygon.UModeler.Editor.UI.UnityEditorObjectHierarchyService
+[2024-01-25 오전 1:11:10] [Debug] [Application] service: Tripolygon.UModeler.UI.ITextureProvider = Tripolygon.UModeler.Editor.UI.UnityEditorTextureProvider
+[2024-01-25 오전 1:11:10] [Debug] [Application] service: Tripolygon.UModeler.Hub.Resources.IResourcesApiProvider = Tripolygon.UModeler.Hub.ResourcesApiProviderService
+[2024-01-25 오전 1:11:10] [Debug] [Application] service: Tripolygon.UModeler.Hub.HubFlashService = Tripolygon.UModeler.Hub.HubFlashService
+[2024-01-25 오전 1:11:10] [Debug] [Application] service: Tripolygon.UModeler.Hub.IHubAnalyticsService = Tripolygon.UModeler.Hub.HubAnalyticsService
+[2024-01-25 오전 1:11:10] [Debug] [Application] service: Tripolygon.UModeler.Hub.VSAttributionService = Tripolygon.UModeler.Hub.VSAttributionService
+[2024-01-25 오전 1:11:10] [Debug] [Application] service: Tripolygon.UModeler.Hub.Notifications.UpdateHubNotifier = Tripolygon.UModeler.Hub.Notifications.UpdateHubNotifier
+[2024-01-25 오전 1:11:10] [Debug] [Application] service: Tripolygon.UModeler.Hub.Notifications.UpdateProductNotifier = Tripolygon.UModeler.Hub.Notifications.UpdateProductNotifier
+[2024-01-25 오전 1:11:10] [Debug] [Application] service: Tripolygon.UModeler.Hub.INoticeService = Tripolygon.UModeler.Hub.Noticies.NoticeService
+[2024-01-25 오전 1:11:10] [Debug] [Application] service: Tripolygon.UModeler.Hub.Views.SceneViews.HubSceneViewService = Tripolygon.UModeler.Hub.Views.SceneViews.HubSceneViewService
+[2024-01-25 오전 1:11:10] [Debug] [Application] Initialize: isReloading=True
+[2024-01-25 오전 1:11:10] [Information] [Authentication] Request TraceId=b4060fa4e69941f4af27fbf13298b4e5, Uri=https://api.umodeler.com/identity/api/v1/auth/verify
+[2024-01-25 오전 1:11:10] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Hub.HubAuthentication
+[2024-01-25 오전 1:11:10] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Editor.UI.UnityEditorApplicationCache
+[2024-01-25 오전 1:11:10] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Hub.HubService
+[2024-01-25 오전 1:11:10] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Editor.UI.UnityEditorApplicationUtilityService
+[2024-01-25 오전 1:11:10] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Hub.HubFlashService
+[2024-01-25 오전 1:11:10] [Debug] [HubAnalytics] PosthogClient.SetAutoFlush: Value Changed: True
+[2024-01-25 오전 1:11:10] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Hub.HubAnalyticsService
+[2024-01-25 오전 1:11:10] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Hub.VSAttributionService
+[2024-01-25 오전 1:11:10] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Hub.Notifications.UpdateHubNotifier
+[2024-01-25 오전 1:11:10] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Hub.Notifications.UpdateProductNotifier
+[2024-01-25 오전 1:11:10] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Hub.Noticies.NoticeService
+[2024-01-25 오전 1:11:10] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Hub.Views.SceneViews.HubSceneViewService
+[2024-01-25 오전 1:11:11] [Error] [Authentication] 
+(Filename:  Line: 0)
+
+AuthenticationException: Unknown Error(200)
+  at Tripolygon.UModeler.Authentication.AuthenticationOwner.RestoreAsync (System.String idToken, System.String accessToken, System.String refreshToken, System.String tokenType, System.Threading.CancellationToken cancellationToken) [0x0015b] in <9b34523573a24403ad5559622955f7b3>:0 
+  at Tripolygon.UModeler.Authentication.Authenticator.TryRestoreByRefreshInfoAsync (Tripolygon.UModeler.Authentication.IAuthenticationOwner authenticationOwner, System.Threading.CancellationToken cancellationToken) [0x000b8] in <9b34523573a24403ad5559622955f7b3>:0 
+Tripolygon.UModeler.Loggings.UMLogger:ErrorException(Exception, String[])
+Tripolygon.UModeler.Authentication.AuthenticationLogger:ErrorException(Exception, String[])
+Tripolygon.UModeler.Authentication.<TryRestoreByRefreshInfoAsync>d__57:MoveNext()
+System.Runtime.CompilerServices.MoveNextRunner:InvokeMoveNext(Object)
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Threading.ExecutionContext:Run(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+System.Threading.Tasks.AwaitTaskContinuation:InvokeAction(Object)
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback(ContextCallback, Object, Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run(Task, Boolean)
+System.Threading.Tasks.Task:FinishContinuations()
+System.Threading.Tasks.Task:FinishStageThree()
+System.Threading.Tasks.Task:FinishStageTwo()
+System.Threading.Tasks.Task:Finish(Boolean)
+System.Threading.Tasks.Task:TrySetException(Object)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1:SetException(Exception)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder:SetException(Exception)
+Tripolygon.UModeler.Authentication.<RestoreAsync>d__12:MoveNext()
+System.Runtime.CompilerServices.MoveNextRunner:InvokeMoveNext(Object)
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Threading.ExecutionContext:Run(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+System.Threading.Tasks.<>c:<.cctor>b__7_0(Object)
+UnityEngine.WorkRequest:Invoke()
+UnityEngine.UnitySynchronizationContext:Exec()
+UnityEngine.UnitySynchronizationContext:ExecuteTasks()
+
+
+ApiException: HTTP Response: 
+
+
+
+Tripolygon.Backend.Sdk.ApiClients.ApiException: Could not deserialize the response body stream as Tripolygon.Backend.Sdk.ApiClients.IdentityApi.V1.VerifyEndpointResponse.
+
+Status: 200
+Response: 
+
+Headers: 
+  Date:
+    Wed, 24 Jan 2024 16:11:14 GMT
+  Transfer-Encoding:
+    chunked
+  Connection:
+    keep-alive
+  CF-Cache-Status:
+    DYNAMIC
+  Report-To:
+    {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=d0gA6YxgH%2B%2FYWmjFNDRsHBxJLiJwI25y6cw9JAr0szg6IO9%2F64lMT8P7K1nZEwGJerv8Dd0a3rzgbWuZhENzwRAHwMVovQFlSMrVR2arJYjCUEIfIqAzrDS%2F9yyXmcOwY04%3D"}],"group":"cf-nel","max_age":604800}
+  NEL:
+    {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+  Server:
+    cloudflare
+  CF-RAY:
+    84a98d133eeb30df-ICN
+  Content-Type:
+    text/html; charset=UTF-8
+ ---> Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+  at Newtonsoft.Json.JsonTextReader.ParseValue () [0x002b3] in <9b34523573a24403ad5559622955f7b3>:0 
+  at Newtonsoft.Json.JsonTextReader.Read () [0x0004c] in <9b34523573a24403ad5559622955f7b3>:0 
+  at Newtonsoft.Json.JsonReader.ReadAndMoveToContent () [0x00000] in <9b34523573a24403ad5559622955f7b3>:0 
+  at Newtonsoft.Json.JsonReader.ReadForType (Newtonsoft.Json.Serialization.JsonContract contract, System.Boolean hasConverter) [0x0004a] in <9b34523573a24403ad5559622955f7b3>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Boolean checkAdditionalContent) [0x000db] in <9b34523573a24403ad5559622955f7b3>:0 
+  at Newtonsoft.Json.JsonSerializer.DeserializeInternal (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00054] in <9b34523573a24403ad5559622955f7b3>:0 
+  at Newtonsoft.Json.JsonSerializer.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00000] in <9b34523573a24403ad5559622955f7b3>:0 
+  at Newtonsoft.Json.JsonSerializer.Deserialize[T] (Newtonsoft.Json.JsonReader reader) [0x00000] in <9b34523573a24403ad5559622955f7b3>:0 
+  at Tripolygon.Backend.Sdk.ApiClients.IdentityApi.V1.IdentityApiClientBase.ReadObjectResponseAsync[T] (System.Net.Http.HttpResponseMessage response, System.Collections.Generic.IReadOnlyDictionary`2[TKey,TValue] headers, System.Threading.CancellationToken cancellationToken) [0x001b7] in <9b34523573a24403ad5559622955f7b3>:0 
+   --- End of inner exception stack trace ---
+  at Tripolygon.Backend.Sdk.ApiClients.IdentityApi.V1.IdentityApiClientBase.ReadObjectResponseAsync[T] (System.Net.Http.HttpResponseMessage response, System.Collections.Generic.IReadOnlyDictionary`2[TKey,TValue] headers, System.Threading.CancellationToken cancellationToken) [0x0023f] in <9b34523573a24403ad5559622955f7b3>:0 
+  at Tripolygon.Backend.Sdk.ApiClients.IdentityApi.V1.IdentityApiClientBase.VerifyAsync (System.String authorization, System.Threading.CancellationToken cancellationToken) [0x00336] in <9b34523573a24403ad5559622955f7b3>:0 
+  at Tripolygon.UModeler.Authentication.AuthenticationOwner.RestoreAsync (System.String idToken, System.String accessToken, System.String refreshToken, System.String tokenType, System.Threading.CancellationToken cancellationToken) [0x000b9] in <9b34523573a24403ad5559622955f7b3>:0 
+
+JsonReaderException: Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+  at Newtonsoft.Json.JsonTextReader.ParseValue () [0x002b3] in <9b34523573a24403ad5559622955f7b3>:0 
+  at Newtonsoft.Json.JsonTextReader.Read () [0x0004c] in <9b34523573a24403ad5559622955f7b3>:0 
+  at Newtonsoft.Json.JsonReader.ReadAndMoveToContent () [0x00000] in <9b34523573a24403ad5559622955f7b3>:0 
+  at Newtonsoft.Json.JsonReader.ReadForType (Newtonsoft.Json.Serialization.JsonContract contract, System.Boolean hasConverter) [0x0004a] in <9b34523573a24403ad5559622955f7b3>:0 
+  at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType, System.Boolean checkAdditionalContent) [0x000db] in <9b34523573a24403ad5559622955f7b3>:0 
+  at Newtonsoft.Json.JsonSerializer.DeserializeInternal (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00054] in <9b34523573a24403ad5559622955f7b3>:0 
+  at Newtonsoft.Json.JsonSerializer.Deserialize (Newtonsoft.Json.JsonReader reader, System.Type objectType) [0x00000] in <9b34523573a24403ad5559622955f7b3>:0 
+  at Newtonsoft.Json.JsonSerializer.Deserialize[T] (Newtonsoft.Json.JsonReader reader) [0x00000] in <9b34523573a24403ad5559622955f7b3>:0 
+  at Tripolygon.Backend.Sdk.ApiClients.IdentityApi.V1.IdentityApiClientBase.ReadObjectResponseAsync[T] (System.Net.Http.HttpResponseMessage response, System.Collections.Generic.IReadOnlyDictionary`2[TKey,TValue] headers, System.Threading.CancellationToken cancellationToken) [0x001b7] in <9b34523573a24403ad5559622955f7b3>:0 
+[2024-01-25 오전 1:11:11] [Information] [Authentication] Request TraceId=23095a9fc0d9446faf4ff177a451bbdb, Uri=https://api.umodeler.com/identity/api/v1/auth/signin
+[2024-01-25 오전 1:11:12] [Debug] [Authentication] SignedIn
+[2024-01-25 오전 1:11:12] [Information] [Authentication] Request TraceId=5e4c37e00c2a467f81241effdfcc9cb0, Uri=https://api.umodeler.com/resources/api/v1/packages/UModelerHub/version?branch=main
+[2024-01-25 오전 1:11:12] [Debug] [HubAnalytics] OnSignIn
+[2024-01-25 오전 1:11:12] [Information] [Authentication] Request TraceId=caf44387d9d4450680a625686c53f855, Uri=https://api.umodeler.com/resources/api/v1/packages/UModelerX/version?branch=main
+[2024-01-25 오전 1:11:13] [Information] [Authentication] Request TraceId=7633782516184fc287475fcbb337cefe, Uri=https://api.umodeler.com/identity/api/v1/hub/info
+[2024-01-25 오전 1:11:13] [Information] [Authentication] Request TraceId=68501a0f2c614072a152183ef556e7b2, Uri=https://api.umodeler.com/resources/api/v1/resources/user-resources?c=ko&current=1&pageSize=20
+[2024-01-25 오전 1:11:20] [Debug] [HubAnalytics] PosthogClient.BatchAsync: Sending Queue Items={"api_key":"phc_DQ6tsN03HRXTr9hNBfi3DierOY5Y0SisUxgxjuAmZG5","batch":[{"event":"signin","properties":{"$set":{"sdk_region_id":"ko-KR","sdk_region_name":"South Korea","sdk_language":"Korean","sdk_os_architecture":"X64","sdk_time_zone":"Korea Standard Time","product_version":"0.12.6","product_user_email":"songyechan1007@gmail.com"},"$os":"WINDOWS","$os_name":"WINDOWS","$session_id":"7a5b683e-eba7-417d-b174-cf3dafde41d5_2b8ee885-111f-4e8c-be27-e33752272faa","distinct_id":"songyechan1007@gmail.com","product_name":"UModeler Hub","product_version":"0.12.6","platform_name":"Unity","platform_version":"2021.3.29f1","screen_width":3440,"screen_height":1440,"viewport_width":1309,"viewport_height":1241,"unity_systeminfo_language":"Korean","unity_systeminfo_os":"Windows 11  (10.0.22621) 64bit","unity_systeminfo_graphicsDeviceType":"Direct3D11","unity_systeminfo_graphicsDeviceVendor":"NVIDIA","unity_systeminfo_graphicsDeviceName":"NVIDIA GeForce RTX 3060 Ti","unity_systeminfo_deviceType":"Desktop","unity_systeminfo_processorType":"AMD Ryzen 5 5600G with Radeon Graphics "},"timestamp":"2024-01-24T16:11:12.279825Z"},{"event":"$identify","properties":{"$set":{"sdk_region_id":"ko-KR","sdk_region_name":"South Korea","sdk_language":"Korean","sdk_os_architecture":"X64","sdk_time_zone":"Korea Standard Time","product_version":"0.12.6"},"$os":"WINDOWS","$os_name":"WINDOWS","$session_id":"7a5b683e-eba7-417d-b174-cf3dafde41d5_2b8ee885-111f-4e8c-be27-e33752272faa","distinct_id":"songyechan1007@gmail.com","product_name":"UModeler Hub","product_version":"0.12.6","platform_name":"Unity","platform_version":"2021.3.29f1","screen_width":3440,"screen_height":1440,"viewport_width":1309,"viewport_height":1241,"unity_systeminfo_language":"Korean","unity_systeminfo_os":"Windows 11  (10.0.22621) 64bit","unity_systeminfo_graphicsDeviceType":"Direct3D11","unity_systeminfo_graphicsDeviceVendor":"NVIDIA","unity_systeminfo_graphicsDeviceName":"NVIDIA GeForce RTX 3060 Ti","unity_systeminfo_deviceType":"Desktop","unity_systeminfo_processorType":"AMD Ryzen 5 5600G with Radeon Graphics "},"timestamp":"2024-01-24T16:11:12.279825Z"}]}
+[2024-01-25 오전 1:11:21] [Debug] [HubAnalytics] PosthogClient.BatchAsync: Sent 2 queue item(s).
+[2024-01-25 오전 1:12:33] [Debug] [Application] service: Tripolygon.UModeler.Hub.HubAuthentication = Tripolygon.UModeler.Hub.HubAuthentication
+[2024-01-25 오전 1:12:33] [Debug] [Application] service: Tripolygon.UModeler.Hub.IHubService = Tripolygon.UModeler.Hub.HubService
+[2024-01-25 오전 1:12:33] [Debug] [Application] service: Tripolygon.UModeler.Authentication.IAuthenticationApiProvider = Tripolygon.UModeler.Editor.AuthenticationApiProviderService
+[2024-01-25 오전 1:12:33] [Debug] [Application] service: Tripolygon.UModeler.Authentication.IAuthenticationApiProvider = Tripolygon.UModeler.Editor.AuthenticationApiProviderService
+[2024-01-25 오전 1:12:33] [Debug] [Application] service: Tripolygon.UModeler.UI.IApplicationUtilityService = Tripolygon.UModeler.Editor.UI.UnityEditorApplicationUtilityService
+[2024-01-25 오전 1:12:33] [Debug] [Application] service: Tripolygon.UModeler.Editor.UI.ApplicationSettings = Tripolygon.UModeler.Editor.UI.ApplicationSettings
+[2024-01-25 오전 1:12:33] [Debug] [Application] service: Tripolygon.UModeler.UI.IObjectHierarchyService = Tripolygon.UModeler.Editor.UI.UnityEditorObjectHierarchyService
+[2024-01-25 오전 1:12:33] [Debug] [Application] service: Tripolygon.UModeler.UI.ITextureProvider = Tripolygon.UModeler.Editor.UI.UnityEditorTextureProvider
+[2024-01-25 오전 1:12:33] [Debug] [Application] service: Tripolygon.UModeler.Hub.Resources.IResourcesApiProvider = Tripolygon.UModeler.Hub.ResourcesApiProviderService
+[2024-01-25 오전 1:12:33] [Debug] [Application] service: Tripolygon.UModeler.Hub.HubFlashService = Tripolygon.UModeler.Hub.HubFlashService
+[2024-01-25 오전 1:12:33] [Debug] [Application] service: Tripolygon.UModeler.Hub.IHubAnalyticsService = Tripolygon.UModeler.Hub.HubAnalyticsService
+[2024-01-25 오전 1:12:33] [Debug] [Application] service: Tripolygon.UModeler.Hub.VSAttributionService = Tripolygon.UModeler.Hub.VSAttributionService
+[2024-01-25 오전 1:12:33] [Debug] [Application] service: Tripolygon.UModeler.Hub.VSAttributionService = Tripolygon.UModeler.Hub.VSAttributionService
+[2024-01-25 오전 1:12:33] [Debug] [Application] service: Tripolygon.UModeler.Hub.Notifications.UpdateHubNotifier = Tripolygon.UModeler.Hub.Notifications.UpdateHubNotifier
+[2024-01-25 오전 1:12:33] [Debug] [Application] service: Tripolygon.UModeler.Hub.Notifications.UpdateProductNotifier = Tripolygon.UModeler.Hub.Notifications.UpdateProductNotifier
+[2024-01-25 오전 1:12:33] [Debug] [Application] service: Tripolygon.UModeler.Hub.INoticeService = Tripolygon.UModeler.Hub.Noticies.NoticeService
+[2024-01-25 오전 1:12:33] [Debug] [Application] service: Tripolygon.UModeler.Hub.Views.SceneViews.HubSceneViewService = Tripolygon.UModeler.Hub.Views.SceneViews.HubSceneViewService
+[2024-01-25 오전 1:12:33] [Debug] [Application] Initialize: isReloading=False
+[2024-01-25 오전 1:12:33] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Hub.HubAuthentication
+[2024-01-25 오전 1:12:33] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Editor.UI.UnityEditorApplicationCache
+[2024-01-25 오전 1:12:33] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Editor.UI.UnityEditorApplicationCache
+[2024-01-25 오전 1:12:33] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Hub.HubService
+[2024-01-25 오전 1:12:33] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Editor.UI.UnityEditorApplicationUtilityService
+[2024-01-25 오전 1:12:33] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Editor.UI.UnityEditorApplicationUtilityService
+[2024-01-25 오전 1:12:33] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Hub.HubFlashService
+[2024-01-25 오전 1:12:33] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Hub.HubFlashService
+[2024-01-25 오전 1:12:34] [Debug] [HubAnalytics] PosthogClient.SetAutoFlush: Value Changed: True
+[2024-01-25 오전 1:12:34] [Debug] [HubAnalytics] PosthogClient.SetAutoFlush: Value Changed: True
+[2024-01-25 오전 1:12:34] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Hub.HubAnalyticsService
+[2024-01-25 오전 1:12:34] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Hub.VSAttributionService
+[2024-01-25 오전 1:12:34] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Hub.VSAttributionService
+[2024-01-25 오전 1:12:34] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Hub.Notifications.UpdateHubNotifier
+[2024-01-25 오전 1:12:34] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Hub.Notifications.UpdateHubNotifier
+[2024-01-25 오전 1:12:34] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Hub.Notifications.UpdateProductNotifier
+[2024-01-25 오전 1:12:34] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Hub.Noticies.NoticeService
+[2024-01-25 오전 1:12:34] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Hub.Notifications.UpdateProductNotifier
+[2024-01-25 오전 1:12:34] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Hub.Noticies.NoticeService
+[2024-01-25 오전 1:12:34] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Hub.Views.SceneViews.HubSceneViewService
+[2024-01-25 오전 1:12:34] [Debug] [Application] Service Initialize: Tripolygon.UModeler.Hub.Views.SceneViews.HubSceneViewService
